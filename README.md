@@ -1,5 +1,5 @@
 # Wanze
-A programm that records an audio, if a voice gets detected and then send it via email to a receiver
+A programm that records an audio, if a voice gets detected and then sends it via email to a receiver
 
 ## Setup
 
