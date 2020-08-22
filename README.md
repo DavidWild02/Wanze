@@ -1,7 +1,7 @@
 # Wanze
 A programm that records an audio, if a voice gets detected and then send it via email to a receiver
 
-##Setup
+## Setup
 
 install necessary modules:
 
@@ -29,7 +29,7 @@ to start the programm use:
  python Wanze.py start
 ```
 
-##Further Help
+##F urther Help
 
 If you desire a list about the available command-line options use:
 ```
@@ -38,7 +38,7 @@ python Wanze.py config --help
 python Wanze.py start --help
 ```
 
-##Turning the programm into an executable
+## Turning the programm into an executable
 If you wish to start the programm without ````python``` preeceded, you must turn it into an executable.
 [StackOverflow](https://stackoverflow.com/questions/304883/what-do-i-use-on-linux-to-make-a-python-program-executable):
 ```
