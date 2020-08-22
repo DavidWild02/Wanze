@@ -70,7 +70,7 @@ def config(args):
 
 def start(args):
     if not os.path.exists('config.toml'):
-        print('You must first create a config file with "python main.py config -c"')
+        print('You must first create a config file with "python Wanze.py config -c"')
         exit()
     config = toml.load('config.toml')
     
@@ -94,7 +94,7 @@ def start(args):
 def main():
     description = '''
 A programm that records an audio, if a voice gets detected and then send it via email to a receiver.
-If you need help to start this programm. Please read the ReadMe
+If you need help to start this programm. Please read the README on GitHub
     '''
     parser = argparse.ArgumentParser(description=description)
     subparsers = parser.add_subparsers(help='sub-command help')
