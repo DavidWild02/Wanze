@@ -10,12 +10,12 @@ pip3 install toml
 pip3 install pyaudio
 ```
 
-crate a config file, that saves your desired settings
+create a config file, that saves your desired settings
 ```
 python Wanze.py config --create
 ```
 
-to start the programm use:
+start the programm with:
 ```
  python Wanze.py start
 ```
