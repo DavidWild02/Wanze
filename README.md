@@ -15,7 +15,14 @@ crate a config file, that saves your desired settings
 python Wanze.py config --create
 ```
 
-if you want to modify the config later, use:
+to start the programm use:
+```
+ python Wanze.py start
+```
+
+## About the config
+
+If you want to modify the settings and not redoing the process of --create, use:
 ```
 nano config.toml
 ```
@@ -24,12 +31,7 @@ or
 python Wanze.py config --open
 ```
 
-to start the programm use:
-```
- python Wanze.py start
-```
-
-##F urther Help
+## Further Help
 
 If you desire a list about the available command-line options use:
 ```
