@@ -44,7 +44,7 @@ If you wish to start the programm without ````python``` preeceded, you must turn
 ```
 chmod +x Wanze.py
 ```
-the you can execute it with:
+then you can execute it with:
 ```
 ./Wanze.py
 ```
